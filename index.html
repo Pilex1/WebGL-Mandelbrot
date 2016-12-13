@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<title>
+			
+		</title>
+	</head>
+	<body onload = "onLoad();">
+		<h2>WebGL Integrated Mandelbrot and Julia Set Renderer</h2>
+		<p>Copyright Alex Tan 2016</p>
+		<canvas id = "cv" width = "1000" height = "500">
+			Your browser (or your graphics card) does not seem to like my program!
+		</canvas>
+		<p id = "fpsText"></p>
+		<h3>Mandelbrot Info:</h3>
+		<p id = "mandText"></p>
+		<h3>Julia Info:</h3>
+		<p id = "juliaText"></p>
+		<br>
+		<script src = gl-matrix.js></script>
+		<script src = mandVertex.js></script>
+		<script src = mandFragment.js></script>
+		<script src = juliaVertex.js></script>
+		<script src = juliaFragment.js></script>
+		<script src = app.js></script>
+		<script src = renderer.js></script>
+	</body>
+</html>
