@@ -1,12 +1,10 @@
 <html>
-	<head>
-		<title>
-			
-		</title>
-	</head>
+	<h1>Complex Numbers and Fractals</h1>
+	<h3>Join Programming Club Now!</h3>
+	<p>On the left hand side is the Mandelbrot Set and on the right is the Julia Set - they are both fractals!<br>Each point represents a complex number (with the frame representing an Argand diagram) - and this number is passed into a simple iterative complex-valued function.<br>The colours in the fractal represent the output of the function, with bands of the same colour indicating the same output value.<br>The remarkable thing is that although this function is incredibly simple, it produces an incredibly detailed shape (in fact, infinitely detailed!) - go ahead and explore yourself!</p>
+	<h3>Controls</h3>
+	<p>Move your mouse to select fractal<br>WASD - pan frame<br>IK - zoom in/out<br>JL rotate<br>ZXC + optional SHIFT - change colours<br>123456789 - change modes<br>R - reset<br>YH - increase/decrease level of detail (may cause loss in performance if increased too high)</p>
 	<body onload = "onLoad();">
-		<h2>WebGL Integrated Mandelbrot and Julia Set Renderer</h2>
-		<p>Copyright Alex Tan 2016</p>
 		<canvas id = "cv" width = "1000" height = "500">
 			Your browser (or your graphics card) does not seem to like my program!
 		</canvas>
@@ -24,4 +22,6 @@
 		<script src = app.js></script>
 		<script src = renderer.js></script>
 	</body>
+	<p>Copyright Alex Tan 2017</p>
+
 </html>

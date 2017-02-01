@@ -65,7 +65,7 @@ class Renderer {
 		this.maxIter = 200;
 		this.maxIterUniformLocation = gl.getUniformLocation(this.program, "maxIter");
 
-		this.clrRatio = vec3.fromValues(0.02, 0.08, 0.12);
+		this.clrRatio = vec3.fromValues(0.084140, 0.046273, 0.089148);
 		this.clrRatioUniformLocation = gl.getUniformLocation(this.program, "clrRatio");
 
 		this.aspectRatioUniformLocation = gl.getUniformLocation(this.program, "aspectRatio");
