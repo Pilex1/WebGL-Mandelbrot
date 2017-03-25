@@ -12,4 +12,4 @@ Features:
 - customizable rotation
 
 Screenshot:
-!alt[https://github.com/Pilex1/WebGL-Mandelbrot/blob/master/Sample.png]
+![alt](https://github.com/Pilex1/WebGL-Mandelbrot/blob/master/Sample.png)
